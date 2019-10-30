@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Heb je een vraag of opmerking? Contacteer ons dan snel en we doen ons best zo snel mogelijk u te antwoorden.">
 
     <title>jobdag webcreators aalst</title>
     <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
