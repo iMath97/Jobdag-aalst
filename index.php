@@ -10,6 +10,29 @@
     <meta name="author" content="Front-end: Frederick Cosyn, Peter Ginneberge, Kristof Roelands Back-end: Mathias Camus">
 
     <title>home | jobdag webcreators aalst</title>
+
+
+    <!-- sharing links facebook, twitter etc -->
+    <!-- COMMON TAGS -->
+
+    <meta name="image" content="https://webcreators-aalst.com/image.jpg">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Kom naar onze Jobdag">
+    <meta itemprop="description" content="Een groep jonge enthousiaste web-developers op zoek naar een job">
+    <meta itemprop="image" content="https://webcreators-aalst.com/image.jpg">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="Kom naar onze Jobdag">
+    <meta name="og:description" content="Een groep jonge enthousiaste web-developers op zoek naar een job">
+    <meta name="og:url" content="https://webcreators-aalst.com/">
+    <meta name="og:site_name" content="Web creators nadadfasf">
+    <meta name="og:locale" content="nl_BE">
+    <meta name="og:type" content="website">
+
+
+    <!-- end of sharing -->
+
+
+
     <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
