@@ -1,6 +1,8 @@
 <div class="container flex jcSb aiCenter rowWrap">
     <div class="main flex jcCenter rowWrap">
-        <a href="https://www.multimedi.be/" rel="noreferrer" target="_blank"><img src="./img/logos/multimedi-web.svg" alt="logo multimedi"></a>
+        <a href="https://www.multimedi.be/" rel="noreferrer" target="_blank">
+            <img src="./img/logos/multimedi-web.svg" alt="logo multimedi">
+        </a>
         <a href="https://www.vdab.be/" rel="noreferrer" target="_blank"><img src="./img/logos/vdab-web.svg" alt="logo vdab"></a>
         <a href="http://obelisk.be/nl" rel="noreferrer" target="_blank"><img src="./img/logos/obelisk-web.svg" alt="logo obelisk"></a>
     </div>
@@ -11,7 +13,7 @@
                 <div class="group">
                     <input type="text" name="username" class="input" placeholder="username"><br>
                 </div>
-                <div class="group">  
+                <div class="group">
                     <input type="password" name="password" class="input" placeholder="password"><br>
                 </div>
             </form>

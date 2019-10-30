@@ -1,39 +1,53 @@
 /* color */
 /* font */
 .flex {
+  display: -webkit-box;
   display: flex; }
 
 .jcCenter {
-  justify-content: center; }
+  -webkit-box-pack: center;
+          justify-content: center; }
 
 .jcSb {
-  justify-content: space-between; }
+  -webkit-box-pack: justify;
+          justify-content: space-between; }
 
 .aiCenter {
-  align-items: center; }
+  -webkit-box-align: center;
+          align-items: center; }
 
 .aiSb {
-  align-items: space-between; }
+  -webkit-box-align: space-between;
+          align-items: space-between; }
 
 .col {
-  flex-direction: column; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column; }
 
 .row {
-  flex-direction: row; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row; }
 
 .asCenter {
   align-self: center; }
 
 .rowWrap {
-  flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-flow: row wrap; }
 
 .colWrap {
-  flex-flow: column wrap; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-flow: column wrap; }
 
 .card {
   width: 14rem;
   height: 16rem;
   background-color: rgba(41, 41, 41, 0.9);
+  -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
   position: relative; }
   .card:hover {
@@ -63,6 +77,7 @@ img {
 header .main img {
   height: 3rem;
   width: 6rem; }
+
 header .aside {
   display: block;
   text-align: center;
@@ -72,9 +87,11 @@ header .aside {
     font-family: "Rajdhani", sans-serif;
     margin: .4rem 0 .4rem 1.8rem;
     text-align: center;
+    -webkit-transition: color 300ms ease;
     transition: color 300ms ease; }
     header .aside a:hover {
       color: #00d7e6; }
+
 header .asideMobile {
   display: none;
   text-align: center;
@@ -84,6 +101,7 @@ header .asideMobile {
     font-family: "Rajdhani", sans-serif;
     margin: .4rem 0 .4rem 1.8rem;
     text-align: center;
+    -webkit-transition: color 300ms ease;
     transition: color 300ms ease; }
     header .asideMobile a:hover {
       color: #00d7e6; }
@@ -91,6 +109,7 @@ header .asideMobile {
 footer .main,
 footer .aside {
   margin: -0.6rem 0; }
+
 footer .main {
   text-align: center; }
   footer .main img {
@@ -98,17 +117,20 @@ footer .main {
     width: 8rem;
     height: 2rem; }
   footer .main a img {
-    padding: 1rem 0; }
+    padding: 1rem 0;
+    height: auto; }
   footer .main a:nth-child(1) img {
     width: 9.5rem; }
   footer .main a:nth-child(2) img {
     width: 4.5rem; }
+
 footer .aside .login {
   margin: 0.3rem; }
   footer .aside .login input {
     width: 5rem;
     height: 1rem;
     margin: 0 0.3rem; }
+
 footer .aside img {
   width: 2rem;
   height: 2rem; }
@@ -171,27 +193,22 @@ input[type=checkbox] {
 
 .mainContent .date {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-flex: 1;
-  -ms-flex: 1;
   flex: 1; }
+
 .mainContent .homeContent {
   border-left: 1px solid #00d7e6;
   margin: 2rem 0;
   padding: 3rem 0 3rem 1rem;
   -webkit-box-flex: 2;
-  -ms-flex: 2;
   flex: 2;
   min-width: 15rem; }
   .mainContent .homeContent a {
@@ -216,7 +233,6 @@ input[type=checkbox] {
   display: none; }
 
 * {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
@@ -284,16 +300,18 @@ header, footer {
   gap: 1.3rem;
   justify-items: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center; }
 
 .private .mainContent {
   padding: 2rem; }
+
 .private h1, .private p, .private a, .private li {
   font-family: "Rajdhani", sans-serif; }
+
 .private h1 {
   text-align: center;
   margin-bottom: 3rem; }
+
 .private a {
   color: #00d7e6; }
 
@@ -306,7 +324,6 @@ header, footer {
 @media only screen and (max-width: 700px) {
   .marginBottom {
     font-size: 2rem; }
-
   header .main {
     margin: .4rem auto 1rem; }
   header .aside {
@@ -314,29 +331,23 @@ header, footer {
     header .aside a {
       font-size: 1.4rem;
       margin-left: .3rem; }
-
   main {
     padding: .6rem 0; }
-
   .mainContent .homeContent {
     border: none; }
     .mainContent .homeContent h1, .mainContent .homeContent h2 {
       text-align: center; }
-
   input, textarea {
     width: 14rem; }
-
   .aside {
     margin: auto;
     margin-top: 1.5rem; }
-
   footer .aside {
     margin: 1.5rem auto .5rem; }
-
   .private .mainContent {
     padding: 2rem .4rem; } }
+
 @media only screen and (max-width: 430px) {
   .mainContent .homeContent {
     padding: 3rem 0 3rem 0; } }
-
 /*# sourceMappingURL=style.css.map */
