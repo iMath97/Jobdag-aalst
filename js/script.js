@@ -5,6 +5,22 @@ document.addEventListener('DOMContentLoaded', (event) => {
     showProfiles();
 });
 
+// Svg checker
+if (!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image", "1.1")) {
+    // if the browser doesn’t support SVG-as-<img>, find all images
+    var images = document.getElementsByTagName("img"),i, src, newsrc;
+    // loop through them
+    for (i = 0; i < images.length; i++) {
+        src = images[i].src;
+        ext = src.split(".").pop();
+        // if the image is .svg replace that with .png
+        if (ext === "svg") {
+            newsrc = src.replace(".svg", ".png");
+            images[i].setAttribute("src", newsrc);
+        }
+    }
+}
+
 /* color the nav btn of the matching active page */
 var a = document.getElementsByClassName("a");
 var loc = location.href;
