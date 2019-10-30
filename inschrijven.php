@@ -53,6 +53,15 @@
             <?php @include "./includes/footer.php"; ?>
         </footer>
     </div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151204448-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-151204448-1');
+</script>
 
     <script src="./js/script.js"></script>
 </body>
