@@ -16,6 +16,8 @@ header{
             margin: .4rem 0 .4rem 1.8rem;
             text-align: center;
             transition: color 300ms ease;
+            padding: 10px 0;
+            cursor: pointer;
             &:hover{
                 color: $teal;
             }
