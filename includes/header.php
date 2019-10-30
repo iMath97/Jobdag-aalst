@@ -1,6 +1,6 @@
 <div class="container flex jcSb aiCenter rowWrap">
     <div class="main">
-        <a href="https://www.webcreators.academy/" rel="noreferrer" target="_blank"><img src="./img/logos/webcreators-web.png" alt="logo webcreators"></a>
+        <a href="https://www.webcreators.academy/" rel="noreferrer" target="_blank"><img src="./img/logos/webcreators-web.svg" alt="logo webcreators"></a>
     </div>
     <div class="aside flex jcCenter rowWrap">
         <a href="./index.php" class="a">home</a>
