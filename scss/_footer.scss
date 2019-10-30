@@ -1,58 +1,62 @@
-footer{
-    .main, .aside{
-        margin: -.6rem 0;
+footer {
+  .main,
+  .aside {
+    margin: -0.6rem 0;
+  }
+  .main {
+    text-align: center;
+    img {
+      margin: 0.3rem 3rem;
+      width: 8rem;
+      height: 2rem;
     }
-    .main{
-        text-align: center;
-        img{
-            margin: .3rem 3rem;
-            width: 8rem;
-            height: 2rem;
+    a {
+      img {
+        padding: 1rem 0;
+      }
+      &:nth-child(1) {
+        img {
+          width: 9.5rem;
         }
-        a{
-            &:nth-child(1){
-                img{
-                    width: 9.5rem;
-                }
-            }
-            &:nth-child(2){
-                img{
-                    width: 4.5rem;
-                }
-            }
+      }
+      &:nth-child(2) {
+        img {
+          width: 4.5rem;
         }
+      }
     }
-    .aside{
-        .login{
-            margin: .3rem;
-            input{
-                width: 5rem;
-                height: 1rem;
-                margin: 0 .3rem;
-            }
-        }
-        img{
-            width: 2rem;
-            height: 2rem;
-        }
+  }
+  .aside {
+    .login {
+      margin: 0.3rem;
+      input {
+        width: 5rem;
+        height: 1rem;
+        margin: 0 0.3rem;
+      }
     }
+    img {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
 }
 
-#login{
-    display: none;
+#login {
+  display: none;
 }
 
-#top{
-    color: $white;
-    font-size: 3rem;
+#top {
+  color: $white;
+  font-size: 3rem;
 
-    position: fixed;
-    bottom: 3rem;
-    right: .5rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 0.5rem;
 
-    display: none;
-    img{
-        width: 3rem;
-        height: 3rem;
-    }
+  display: none;
+  img {
+    width: 3rem;
+    height: 3rem;
+  }
 }
