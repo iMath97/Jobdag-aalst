@@ -1,8 +1,8 @@
 <div class="container flex jcSb aiCenter rowWrap">
     <div class="main flex jcCenter rowWrap">
         <a href="https://www.multimedi.be/" rel="noreferrer" target="_blank"><img src="./img/logos/multimedi-web.svg" alt="logo multimedi"></a>
-        <a href="https://www.vdab.be/" rel="noreferrer" target="_blank"><img src="./img/logos/vdab-web.png" alt="logo vdab"></a>
-        <a href="http://obelisk.be/nl" rel="noreferrer" target="_blank"><img src="./img/logos/obelisk-web.png" alt="logo obelisk"></a>
+        <a href="https://www.vdab.be/" rel="noreferrer" target="_blank"><img src="./img/logos/vdab-web.svg" alt="logo vdab"></a>
+        <a href="http://obelisk.be/nl" rel="noreferrer" target="_blank"><img src="./img/logos/obelisk-web.svg" alt="logo obelisk"></a>
     </div>
     <div class="aside flex aiCenter rowWrap">
         <div class="login" id="login">
