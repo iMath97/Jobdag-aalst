@@ -1,8 +1,8 @@
 <div class="container flex jcSb aiCenter rowWrap">
     <div class="main flex jcCenter rowWrap">
-        <a href="https://www.multimedi.be/" target="_blank"><img src="./img/logos/multimedi-web.png" alt="logo multimedi"></a>
-        <a href="https://www.vdab.be/" target="_blank"><img src="./img/logos/vdab-web.png" alt="logo vdab"></a>
-        <a href="http://obelisk.be/nl" target="_blank"><img src="./img/logos/obelisk-web.png" alt="logo obelisk"></a>
+        <a href="https://www.multimedi.be/" target="_blank"><img src="./img/logos/multimedi-web.svg" alt="logo multimedi"></a>
+        <a href="https://www.vdab.be/" target="_blank"><img src="./img/logos/vdab-web.svg" alt="logo vdab"></a>
+        <a href="http://obelisk.be/nl" target="_blank"><img src="./img/logos/obelisk-web.svg" alt="logo obelisk"></a>
     </div>
     <div class="aside flex aiCenter rowWrap">
         <div class="login" id="login">
@@ -16,7 +16,7 @@
                 </div>
             </form>
         </div>
-        <a href="#login" id="admin"><img src="./img/logos/webcreators-db-web.png" alt="logo webcreators"></a>
+        <a href="#login" id="admin"><img src="./img/logos/webcreators-db-web.svg" alt="logo webcreators"></a>
     </div>
 </div>
 <a href="#" id="top"><img src="./img/up.png" alt="up btn" id="changeImg" title="top"></a>
