@@ -142,6 +142,9 @@ header, footer{
     }
     .mainContent{
         .homeContent{
+            h1, h2{
+                text-align: center;
+            }
             border: none;
         }
     }

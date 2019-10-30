@@ -194,8 +194,6 @@ input[type=checkbox] {
   -ms-flex: 2;
   flex: 2;
   min-width: 15rem; }
-  .mainContent .homeContent h1 {
-    text-align: center; }
   .mainContent .homeContent a {
     text-decoration: underline;
     text-transform: lowercase; }
@@ -322,6 +320,8 @@ header, footer {
 
   .mainContent .homeContent {
     border: none; }
+    .mainContent .homeContent h1, .mainContent .homeContent h2 {
+      text-align: center; }
 
   input, textarea {
     width: 14rem; }
