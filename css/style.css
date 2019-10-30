@@ -1,0 +1,338 @@
+/* color */
+/* font */
+.flex {
+  display: flex; }
+
+.jcCenter {
+  justify-content: center; }
+
+.jcSb {
+  justify-content: space-between; }
+
+.aiCenter {
+  align-items: center; }
+
+.aiSb {
+  align-items: space-between; }
+
+.col {
+  flex-direction: column; }
+
+.row {
+  flex-direction: row; }
+
+.asCenter {
+  align-self: center; }
+
+.rowWrap {
+  flex-flow: row wrap; }
+
+.colWrap {
+  flex-flow: column wrap; }
+
+.card {
+  width: 14rem;
+  height: 16rem;
+  background-color: rgba(41, 41, 41, 0.9);
+  transition: all 200ms ease-in-out;
+  position: relative; }
+  .card:hover {
+    border-bottom: 6px solid #00d7e6; }
+  .card a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+
+.cardPic {
+  width: 13rem;
+  height: 13rem;
+  background-color: #fff;
+  margin: .3rem auto; }
+
+img {
+  height: 13rem;
+  width: 13rem; }
+
+.cardFooter {
+  text-align: center; }
+
+/* color */
+/* font */
+header .main img {
+  height: 3rem;
+  width: 6rem; }
+header .aside {
+  display: block;
+  text-align: center;
+  margin: .4rem 0; }
+  header .aside a {
+    font-size: 1.6rem;
+    font-family: "Rajdhani", sans-serif;
+    margin: .4rem 0 .4rem 1.8rem;
+    text-align: center;
+    transition: color 300ms ease; }
+    header .aside a:hover {
+      color: #00d7e6; }
+header .asideMobile {
+  display: none;
+  text-align: center;
+  margin: .4rem 0; }
+  header .asideMobile a {
+    font-size: 1.6rem;
+    font-family: "Rajdhani", sans-serif;
+    margin: .4rem 0 .4rem 1.8rem;
+    text-align: center;
+    transition: color 300ms ease; }
+    header .asideMobile a:hover {
+      color: #00d7e6; }
+
+footer .main, footer .aside {
+  margin: -.6rem 0; }
+footer .main {
+  text-align: center; }
+  footer .main img {
+    margin: .3rem 3rem;
+    width: 8rem;
+    height: 2rem; }
+  footer .main a:nth-child(1) img {
+    width: 9.5rem; }
+  footer .main a:nth-child(2) img {
+    width: 4.5rem; }
+footer .aside .login {
+  margin: .3rem; }
+  footer .aside .login input {
+    width: 5rem;
+    height: 1rem;
+    margin: 0 .3rem; }
+footer .aside img {
+  width: 2rem;
+  height: 2rem; }
+
+#login {
+  display: none; }
+
+#top {
+  color: #fff;
+  font-size: 3rem;
+  position: fixed;
+  bottom: 3rem;
+  right: .5rem;
+  display: none; }
+  #top img {
+    width: 3rem;
+    height: 3rem; }
+
+input[type=submit] {
+  color: #00d7e6;
+  border: 1px solid #00d7e6;
+  font-family: "Allerta Stencil", sans-serif;
+  text-transform: uppercase; }
+  input[type=submit]:hover {
+    color: #000;
+    background-color: #00d7e6; }
+
+label {
+  font-family: "Rajdhani", sans-serif;
+  text-transform: capitalize; }
+
+input, textarea {
+  width: 30rem;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(0, 215, 230, 0.3);
+  resize: none;
+  color: #fff;
+  padding: 0 .4rem; }
+  input:focus, textarea:focus {
+    border-left: 3px solid #00d7e6; }
+
+input {
+  height: 2rem; }
+
+input[type=checkbox] {
+  width: 1.2rem;
+  height: 1rem;
+  padding: 0;
+  background-color: #f0f;
+  margin-bottom: .2rem; }
+
+#labelCenter {
+  text-align: center;
+  margin-bottom: .4rem; }
+  #labelCenter #privacy {
+    font-family: "Rajdhani", sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline; }
+
+.mainContent .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
+.mainContent .homeContent {
+  border-left: 1px solid #00d7e6;
+  margin: 2rem 0;
+  padding: 3rem 0 3rem 1rem;
+  -webkit-box-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  min-width: 15rem; }
+  .mainContent .homeContent a {
+    text-decoration: underline;
+    text-transform: lowercase; }
+
+.registrationBtn {
+  text-align: center;
+  margin: 0 0 .3rem 0; }
+  .registrationBtn #registrationHome {
+    display: block;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid #00d7e6;
+    font-size: 1.4rem; }
+    .registrationBtn #registrationHome:hover {
+      background-color: #00d7e6; }
+    .registrationBtn #registrationHome:hover span {
+      color: #000; }
+
+.companyLogo {
+  display: none; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  height: 100vh;
+  color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  body .bg {
+    min-height: 100%;
+    background-image: repeating-linear-gradient(to top right, #004c52, #00d7e6, #00467b); }
+  body span {
+    color: #00d7e6;
+    text-transform: uppercase; }
+  body a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase; }
+  body h1 {
+    font-size: 3rem;
+    text-transform: uppercase; }
+  body h3 {
+    font-size: 4rem; }
+    body h3:nth-child(2) {
+      margin-top: -.5rem; }
+  body h4 {
+    font-size: 3rem; }
+  body h1, body h3, body a {
+    font-family: "Allerta Stencil", sans-serif;
+    font-weight: 100; }
+  body h2, body h4, body p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 100; }
+  body h1, body h2, body h3, body h4, body span {
+    margin: 0; }
+  body h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem; }
+
+header, footer {
+  background-color: rgba(41, 41, 41, 0.9);
+  width: 100%; }
+  header img, footer img {
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out; }
+    header img:hover, footer img:hover {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px); }
+
+.container {
+  max-width: 80rem;
+  margin: auto;
+  padding: .6rem 1rem; }
+  .container.mainContent {
+    width: 90vw;
+    background-color: rgba(41, 41, 41, 0.9);
+    border-radius: 15px;
+    margin: 1.4rem auto; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1.3rem;
+  justify-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.private .mainContent {
+  padding: 2rem; }
+.private h1, .private p, .private a, .private li {
+  font-family: "Rajdhani", sans-serif; }
+.private h1 {
+  text-align: center;
+  margin-bottom: 3rem; }
+.private a {
+  color: #00d7e6; }
+
+.marginBottom {
+  margin-bottom: 2rem; }
+
+.card-profile:hover {
+  cursor: pointer; }
+
+@media only screen and (max-width: 700px) {
+  .marginBottom {
+    font-size: 2rem; }
+
+  header .main {
+    margin: .4rem auto 1rem; }
+  header .aside {
+    margin: 0 auto; }
+    header .aside a {
+      font-size: 1.4rem;
+      margin-left: .3rem; }
+
+  main {
+    padding: .6rem 0; }
+
+  .mainContent .homeContent {
+    border: none; }
+
+  input, textarea {
+    width: 14rem; }
+
+  .aside {
+    margin: auto;
+    margin-top: 1.5rem; }
+
+  footer .aside {
+    margin: 1.5rem auto .5rem; }
+
+  .private .mainContent {
+    padding: 2rem .4rem; } }
+@media only screen and (max-width: 430px) {
+  .mainContent .homeContent {
+    padding: 3rem 0 3rem 0; } }
+
+/*# sourceMappingURL=style.css.map */

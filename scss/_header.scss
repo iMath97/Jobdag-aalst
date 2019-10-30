@@ -1,0 +1,39 @@
+@import "./var";
+header{
+    .main{
+        img{
+            height: 3rem;
+            width: 6rem;
+        }
+    }
+    .aside{
+        display: block;
+        text-align: center;
+        margin: .4rem 0;
+        a{
+            font-size: 1.6rem;
+            font-family: $fontRajdhani;
+            margin: .4rem 0 .4rem 1.8rem;
+            text-align: center;
+            transition: color 300ms ease;
+            &:hover{
+                color: $teal;
+            }
+        }
+    }
+    .asideMobile{
+        display: none;
+        text-align: center;
+        margin: .4rem 0;
+        a{
+            font-size: 1.6rem;
+            font-family: $fontRajdhani;
+            margin: .4rem 0 .4rem 1.8rem;
+            text-align: center;
+            transition: color 300ms ease;
+            &:hover{
+                color: $teal;
+            }
+        }
+    }
+}

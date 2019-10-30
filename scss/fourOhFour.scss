@@ -1,0 +1,29 @@
+@import "./flex";
+
+body{
+    margin: 0 auto;
+    padding: .3rem;
+    height: 100vh;
+    background-color: #999;
+    color: #fff;
+    font-family: "Rajdhani", sans-serif;
+    text-shadow: 0 0 5px #000;
+    user-select: none;
+}
+#sadSmiley{
+    font-size: 10rem;
+    margin-bottom: 1rem;
+}
+p{
+    &:nth-child(2){
+        font-size: 7rem;
+        margin: 0;
+    }
+}
+a{
+    color: #fff;
+    text-shadow: none;
+    &:hover{
+        text-shadow: 0 0 1px teal;
+    }
+}

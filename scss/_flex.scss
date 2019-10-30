@@ -1,0 +1,30 @@
+.flex{
+    display: flex;
+}
+.jcCenter{
+    justify-content: center;
+}
+.jcSb{
+    justify-content: space-between;
+}
+.aiCenter{
+    align-items: center;
+}
+.aiSb{
+    align-items: space-between;
+}
+.col{
+    flex-direction: column;
+}
+.row{
+    flex-direction: row;
+}
+.asCenter{
+    align-self: center;
+}
+.rowWrap{
+    flex-flow: row wrap;
+}
+.colWrap{
+    flex-flow: column wrap;
+}

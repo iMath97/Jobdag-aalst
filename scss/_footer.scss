@@ -1,0 +1,58 @@
+footer{
+    .main, .aside{
+        margin: -.6rem 0;
+    }
+    .main{
+        text-align: center;
+        img{
+            margin: .3rem 3rem;
+            width: 8rem;
+            height: 2rem;
+        }
+        a{
+            &:nth-child(1){
+                img{
+                    width: 9.5rem;
+                }
+            }
+            &:nth-child(2){
+                img{
+                    width: 4.5rem;
+                }
+            }
+        }
+    }
+    .aside{
+        .login{
+            margin: .3rem;
+            input{
+                width: 5rem;
+                height: 1rem;
+                margin: 0 .3rem;
+            }
+        }
+        img{
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+}
+
+#login{
+    display: none;
+}
+
+#top{
+    color: $white;
+    font-size: 3rem;
+
+    position: fixed;
+    bottom: 3rem;
+    right: .5rem;
+
+    display: none;
+    img{
+        width: 3rem;
+        height: 3rem;
+    }
+}
