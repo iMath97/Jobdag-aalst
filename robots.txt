@@ -6,4 +6,4 @@ Disallow: /admin/
 User-agent: *
 Allow: /
 
-Sitemap: sitemap.xml
+Sitemap: https://webcreators-aalst.com/sitemap.xml
