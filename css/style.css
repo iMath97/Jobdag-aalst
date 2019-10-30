@@ -88,24 +88,27 @@ header .asideMobile {
     header .asideMobile a:hover {
       color: #00d7e6; }
 
-footer .main, footer .aside {
-  margin: -.6rem 0; }
+footer .main,
+footer .aside {
+  margin: -0.6rem 0; }
 footer .main {
   text-align: center; }
   footer .main img {
-    margin: .3rem 3rem;
+    margin: 0.3rem 3rem;
     width: 8rem;
     height: 2rem; }
+  footer .main a img {
+    padding: 1rem 0; }
   footer .main a:nth-child(1) img {
     width: 9.5rem; }
   footer .main a:nth-child(2) img {
     width: 4.5rem; }
 footer .aside .login {
-  margin: .3rem; }
+  margin: 0.3rem; }
   footer .aside .login input {
     width: 5rem;
     height: 1rem;
-    margin: 0 .3rem; }
+    margin: 0 0.3rem; }
 footer .aside img {
   width: 2rem;
   height: 2rem; }
@@ -118,7 +121,7 @@ footer .aside img {
   font-size: 3rem;
   position: fixed;
   bottom: 3rem;
-  right: .5rem;
+  right: 0.5rem;
   display: none; }
   #top img {
     width: 3rem;
@@ -156,7 +159,6 @@ input[type=checkbox] {
   width: 1.2rem;
   height: 1rem;
   padding: 0;
-  background-color: #f0f;
   margin-bottom: .2rem; }
 
 #labelCenter {
@@ -192,6 +194,8 @@ input[type=checkbox] {
   -ms-flex: 2;
   flex: 2;
   min-width: 15rem; }
+  .mainContent .homeContent h1 {
+    text-align: center; }
   .mainContent .homeContent a {
     text-decoration: underline;
     text-transform: lowercase; }

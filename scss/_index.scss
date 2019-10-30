@@ -18,6 +18,9 @@
                 flex: 1;
     }
     .homeContent{
+        h1{
+            text-align: center;
+        }
         border-left: 1px solid $teal;
         margin: 2rem 0;
         padding: 3rem 0 3rem 1rem;
